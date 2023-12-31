@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    margin: 2rem 0;
+}
+
+h1 span{
+    color: #00ffff;
+}
+
+.container button{
+    padding: .4rem 1rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.gif_div img{
+    height: 14rem;
+    width: 14rem;
+    display: none;
+}
+
+.gif_div h2{
+    margin-top: 2rem;
+    display: none;
+}
