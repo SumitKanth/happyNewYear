@@ -22,10 +22,18 @@ h1 span{
 }
 
 .container button{
-    padding: .4rem 1rem;
+    padding: .6rem 1.2rem;
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    font-size: 1rem;
+}
+
+.gif_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .gif_div img{
@@ -37,4 +45,5 @@ h1 span{
 .gif_div h2{
     margin-top: 2rem;
     display: none;
+    margin-left: 1rem;
 }
